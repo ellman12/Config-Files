@@ -3,6 +3,3 @@
 [user]
 	email = ellduc4@gmail.com
 	name = Elliott
-[alias]
-	fa = "!git add . && git commit --amend --no-edit && git push -f" # Add all files, amend them to the last commit, and force push.
-	db = "!f() { git branch -d $1 && git push origin --delete $1; }; f" # Delete a branch locally and on the remote.
