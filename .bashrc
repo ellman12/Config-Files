@@ -9,9 +9,9 @@ gc() {
 alias gp="git push -q ; clear"
 alias gpf="git push -f -q ; clear"
 alias gpl="git pull -q ; clear"
-alias fa="git add . && git commit --amend --no-edit && gpf"
+alias gfa="git add . && git commit --amend --no-edit && gpf"
 
-db() {
+gdb() {
 	git branch -d $1 && git push origin --delete $1
 }
 
