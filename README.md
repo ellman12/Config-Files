@@ -1,2 +1,2 @@
 # Dotfiles
-My various dotfiles for Git, Vim, etc.
+My various dotfiles for Bash, Git, Vim, etc.
