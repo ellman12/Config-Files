@@ -22,6 +22,7 @@ grh() {
 }
 
 alias gsa="git stash apply"
+alias gsc="git stash create"
 alias gsp="git stash pop"
 alias gsl="git stash list"
 
