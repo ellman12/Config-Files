@@ -1,2 +1,2 @@
-nnoremap <C-d> <C-d>zz
-nnoremap <C-u> <C-u>zz
+nnoremap <PageUp> <PageUp>zz
+nnoremap <PageDown> <PageDown>zz
