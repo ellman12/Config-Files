@@ -6,3 +6,5 @@ nnoremap <Home> _
 inoremap <Home> <C-o>_
 
 set laststatus=0
+
+set matchpairs=(:),{:},[:],<:>,`:`,':',":"
