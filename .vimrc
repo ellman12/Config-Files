@@ -7,6 +7,11 @@ inoremap <Home> <C-o>_
 
 nnoremap U <C-r>
 
+"EasyMotion
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+map <Leader> <Plug>(easymotion-prefix)
+
 set laststatus=0
 
 set matchpairs=(:),{:},[:],<:>,`:`,':',":"
