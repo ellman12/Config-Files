@@ -7,8 +7,9 @@ set laststatus=0
 
 set matchpairs=(:),{:},[:],<:>,`:`,':',":"
 
-nnoremap <Home> _
-inoremap <Home> <C-o>_
+" Make Home go to first non-blank character.
+nnoremap <Home> ^
+inoremap <Home> <C-o>^
 
 " Redo with U in addition to Ctrl R.
 nnoremap U <C-r>
