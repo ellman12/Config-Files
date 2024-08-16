@@ -1,5 +1,5 @@
 [core]
-	editor = \"C:\\Users\\Elliott\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	editor = nvim
 [user]
 	email = ellduc4@gmail.com
 	name = Elliott
