@@ -1,3 +1,12 @@
+set showmatch
+
+set smartcase
+
+set autoread
+
+set incsearch
+
+
 "Tabs
 set tabstop=4
 set shiftwidth=4
