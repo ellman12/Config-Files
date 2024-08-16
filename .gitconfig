@@ -1,5 +1,6 @@
 [core]
 	editor = nvim
+	autocrlf = false
 [user]
 	email = ellduc4@gmail.com
 	name = Elliott
