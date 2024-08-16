@@ -24,7 +24,7 @@ vnoremap X "_X
 vnoremap s "_s
 
 
-"Relative line numbers.
+"Relative line numbers in normal mode, absolute in insert mode.
 "https://jeffkreeftmeijer.com/vim-number/
 set number relativenumber
 augroup numbertoggle
@@ -32,4 +32,10 @@ autocmd!
 autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
 autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 augroup END
+
+
+"Ensure only LF and no CRLF.
+set fileformats=unix
+set fileformat=unix
+
 
