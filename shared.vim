@@ -1,7 +1,11 @@
-"EasyMotion
-nnoremap <SPACE> <Nop>
-let mapleader=" "
-map <Leader> <Plug>(easymotion-prefix)
+"Tabs
+set tabstop=4
+set shiftwidth=4
+set noexpandtab
+
+"Ensure only LF and no CRLF.
+set fileformats=unix
+set fileformat=unix
 
 set laststatus=0
 
@@ -34,8 +38,9 @@ autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | se
 augroup END
 
 
-"Ensure only LF and no CRLF.
-set fileformats=unix
-set fileformat=unix
+"EasyMotion
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+map <Leader> <Plug>(easymotion-prefix)
 
 
