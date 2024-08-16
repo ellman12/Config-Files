@@ -9,6 +9,7 @@ alias glg="git log --abbrev-commit --decorate --graph"
 alias glog="git log --abbrev-commit --decorate --oneline --graph"
 
 #Commit, push, pull
+alias ga="git add ."
 gc() { git commit -m "$1"; }
 alias gca="git commit --amend --no-edit"
 alias gcae="git commit --amend"
