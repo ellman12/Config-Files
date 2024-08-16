@@ -43,3 +43,7 @@ gsd() {
 alias nrb="clear && npm run build"
 alias nrd="clear && npm run dev"
 
+alias vi="nvim"
+alias vim="nvim"
+
+
