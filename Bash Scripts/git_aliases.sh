@@ -36,11 +36,13 @@ gsd() { git stash drop "$1"; }
 
 
 #Reset
-alias grh="git reset --hard"
+alias grh="git reset --hard && git clean -df"
 grho() { git fetch && git reset --hard origin/"$1"; }
 
 
 #Branches
+gmb() { git merge --no-ff "$1"; }
+gmm() { git switch main && git merge --no-ff "$1"; }
 gdb() { git branch -d "$1" && git push origin --delete "$1"; }
 
 
