@@ -2,3 +2,6 @@ source ~/shared.vim
 
 set easymotion
 
+set highlightedyank
+
+
