@@ -1,5 +1,8 @@
 source ~/shared.vim
 
+"https://youtu.be/VxHT88haAPU
+set t_vb=
+
 nnoremap <PageUp> <PageUp>zz
 inoremap <PageUp> <PageUp><C-o>zz
 nnoremap <PageDown> <PageDown>zz
