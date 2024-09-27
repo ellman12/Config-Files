@@ -42,7 +42,16 @@
     ],
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "Fira Code",
+                "size": 12.0,
+                "weight": "normal"
+            }
+        },
         "list": 
         [
             {
