@@ -4,4 +4,7 @@ set easymotion
 
 set highlightedyank
 
+"https://github.com/JetBrains/ideavim/blob/master/doc/ideajoin-examples.md
+set ideajoin
+
 
