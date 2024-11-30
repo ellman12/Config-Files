@@ -13,8 +13,8 @@ set shiftwidth=4
 set noexpandtab
 
 "Ensure only LF and no CRLF.
-set fileformats=unix
-set fileformat=unix
+"set fileformats=unix
+"set fileformat=unix
 
 set laststatus=0
 
