@@ -18,4 +18,6 @@ alias nrd="clear && npm run dev"
 alias vi="nvim"
 alias vim="nvim"
 
+#Start directory
+cd ~/Documents/GitHub
 
