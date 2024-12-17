@@ -32,11 +32,6 @@ nnoremap x "_x
 nnoremap X "_X
 nnoremap s "_s
 
-vnoremap x "_x
-vnoremap X "_X
-vnoremap s "_s
-
-
 "Relative line numbers in normal mode, absolute in insert mode.
 "https://jeffkreeftmeijer.com/vim-number/
 set number relativenumber
