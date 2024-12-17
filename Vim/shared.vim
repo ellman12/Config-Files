@@ -29,6 +29,10 @@ inoremap <Home> <C-o>^
 ""Redo with U in addition to Ctrl R.
 nnoremap U <C-r>
 
+""Make Backspace in normal and visual mode useful.
+nnoremap <BS> X
+vnoremap <BS> X
+
 ""Send x, X, and s to the black hole register.
 nnoremap x "_x
 nnoremap X "_X
