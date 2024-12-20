@@ -1,6 +1,8 @@
-source ~/shared.vim
+source ~/Documents/GitHub/Config-Files/Vim/remap.vim
+source ~/Documents/GitHub/Config-Files/Vim/set.vim
 
 set easymotion
+map <Leader> <Plug>(easymotion-prefix)
 
 set highlightedyank
 
