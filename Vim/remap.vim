@@ -22,6 +22,18 @@ nnoremap s "_s
 "Paste over selection without overwriting register.
 vnoremap p P
 
+"Facilitate working with system clipboard.
+nnoremap <leader>y "+y
+nnoremap <leader>Y "+y$
+nnoremap <leader>d "+d
+nnoremap <leader>D "+D
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+
+vnoremap <leader>y "+y
+vnoremap <leader>d "+d
+vnoremap <leader>p "+p
+
 "Move selected lines up/down.
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
