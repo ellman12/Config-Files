@@ -1,5 +1,5 @@
 #!/bin/bash
-#Copies config files to where they need to go.
+#Copies config files to where they need to go (on a Windows machine).
 
 #Set Up Bash
 find ./Bash/ -maxdepth 1 -type f -exec cp {} ~/ \;
@@ -18,5 +18,5 @@ find ./Vim/ -maxdepth 1 -type f ! -name "init.vim" -exec cp {} ~/ \;
 
 #Set Up Neovim
 mkdir ~/AppData/Local/nvim
-cp ./Vim/init.vim ~/AppData/Local/nvim/init.vim
+cp -r ./Neovim/* ~/AppData/Local/nvim
 
