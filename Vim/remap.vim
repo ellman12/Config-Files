@@ -36,6 +36,12 @@ nnoremap <C-d> <C-d>zz
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
+"Find and replace word under cursor.
+nnoremap <leader>s :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
+
+"Find and replace selection.
+vnoremap <leader>s "zy:%s/<C-r>z//g<Left><Left>
+
 "Consistent behavior between IdeaVim and Vim.
 ""In IdeaVim, Y normally does yy for some reason.
 nnoremap Y y$
