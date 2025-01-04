@@ -19,6 +19,9 @@ nnoremap x "_x
 nnoremap X "_X
 nnoremap s "_s
 
+"Paste over selection without overwriting register.
+vnoremap p P
+
 "Move selected lines up/down.
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
@@ -41,6 +44,7 @@ nnoremap <leader>s :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
 
 "Find and replace selection.
 vnoremap <leader>s "zy:%s/<C-r>z//g<Left><Left>
+
 
 "Consistent behavior between IdeaVim and Vim.
 ""In IdeaVim, Y normally does yy for some reason.
