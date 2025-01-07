@@ -29,4 +29,10 @@ set smartindent
 "set fileformats=unix
 "set fileformat=unix
 
+"Ensure shell works properly
+set shell=~/AppData/Local/Programs/Git/usr/bin/bash.exe
+set shellcmdflag=-c
+set shellquote=
+set shellxquote=
+
 
