@@ -51,3 +51,5 @@ sethandler <C-[> a:ide
 sethandler <C-\> a:vim
 sethandler <C-]> a:ide
 
+nnoremap Q :action GotoFile<CR>
+
