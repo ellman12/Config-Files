@@ -13,6 +13,8 @@ set incsearch
 
 set laststatus=0
 
+set noruler
+
 colorscheme vim
 
 set matchpairs=(:),{:},[:],<:>,`:`,':',":"
