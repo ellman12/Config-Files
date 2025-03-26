@@ -15,6 +15,8 @@ set laststatus=0
 
 set noruler
 
+set showcmd
+
 colorscheme vim
 
 set matchpairs=(:),{:},[:],<:>,`:`,':',":"
