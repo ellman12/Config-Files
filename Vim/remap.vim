@@ -3,6 +3,10 @@
 nnoremap <SPACE> <Nop>
 let mapleader=" "
 
+"Make wrapped lines less annoying.
+nnoremap j gj
+nnoremap k gk
+
 "Make Home go to first non-blank character.
 nnoremap <Home> ^
 inoremap <Home> <C-o>^
