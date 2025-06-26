@@ -1,9 +1,6 @@
 alias ..='cd ..'
 alias ls='ls -A -F --color=auto --show-control-chars'
 
-alias nrb="clear && npm run build"
-alias nrd="clear && npm run dev"
-
 alias vi="nvim"
 alias vim="nvim"
 
