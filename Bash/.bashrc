@@ -12,6 +12,4 @@ if [ -d "$SCRIPTS_PATH" ]; then
     done
 fi
 
-#Start directory
-cd ~/Documents/GitHub
 
