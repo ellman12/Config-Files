@@ -45,5 +45,10 @@ gmb() { git merge --no-ff "$1"; }
 gmm() { git switch main && git merge --no-ff "$1"; }
 gdb() { git branch -d "$1" && git push origin --delete "$1"; }
 
+#Copy name of current branch
+cpbr() {
+    branch=$(git rev-parse --abbrev-ref HEAD)
+    echo -n "$branch" | clip
+}
 
 
