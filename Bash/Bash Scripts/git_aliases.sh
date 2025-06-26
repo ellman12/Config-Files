@@ -37,7 +37,11 @@ gsd() { git stash drop "$1"; }
 
 #Reset
 alias grh="git reset --hard && git clean -df"
-grho() { git fetch && git reset --hard origin/"$1"; }
+
+grho() {
+    branch=${1:-$(git rev-parse --abbrev-ref HEAD)}
+    git fetch && git reset --hard origin/"$branch"
+}
 
 
 #Branches
@@ -50,5 +54,4 @@ cpbr() {
     branch=$(git rev-parse --abbrev-ref HEAD)
     echo -n "$branch" | clip
 }
-
 
