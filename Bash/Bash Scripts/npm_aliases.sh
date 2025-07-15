@@ -7,4 +7,4 @@ alias nrld="nrl && npm run dev"
 alias nclean="rm -rf node_modules/"
 alias nfreshi="nclean && npm i"
 alias nfreshb="nfreshi && nrlb"
-
+alias nfreshd="nfreshi && nrld"
