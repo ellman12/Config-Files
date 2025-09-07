@@ -1,3 +1,24 @@
 #https://youtu.be/VxHT88haAPU
 set bell-style none
 
+#Case and character handling
+set completion-ignore-case on			#Case-insensitive tab completion
+set completion-map-case on				#Treat - and _ as the same
+
+#Directory completion
+set mark-directories on					#Append / after directories
+set mark-symlinked-directories on		#Append / after symlinked directories
+set visible-stats on					#Show indicators (*, /, @) like ls -F
+
+#Ambiguous completions
+set show-all-if-ambiguous on			#Show matches immediately
+set show-all-if-unmodified on			#Show all matches on repeated Tab
+
+#Menu-style completion
+TAB: menu-complete						#Cycle through completions with Tab
+"\e[Z": menu-complete-backward			#Shift-Tab cycles backward
+
+#Cosmetic
+set completion-prefix-display-length 2  #Show only differing suffix after 2 chars
+set page-completions off                #Don’t pause with "--More--" in long lists
+
