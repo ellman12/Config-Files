@@ -1,2 +1,2 @@
-vim.cmd [[source ~/Documents/GitHub/Config-Files/Vim/remap.vim]]
+vim.cmd [[source ~/Documents/Repos/Config-Files/Vim/remap.vim]]
 

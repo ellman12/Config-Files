@@ -13,7 +13,8 @@ mkd() {
 }
 
 #Common folders
-alias cdgh='cd "C:/Users/Elliott/Documents/GitHub"'
-alias cdahk='cd "C:/Users/Elliott/Documents/GitHub/AutoHotkey-V2"'
-alias cdcfg='cd "C:/Users/Elliott/Documents/GitHub/Config-Files"'
+alias cdrps='cd "C:/Users/Elliott/Documents/Repos"'
+alias cdahk='cd "C:/Users/Elliott/Documents/Repos/AutoHotkey-V2"'
+alias cdcfg='cd "C:/Users/Elliott/Documents/Repos/Config-Files"'
+alias cdwtb='cd "C:/Users/Elliott/Documents/Repos/WingTechBot-MK3"'
 

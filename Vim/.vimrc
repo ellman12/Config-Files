@@ -1,5 +1,5 @@
-source ~/Documents/GitHub/Config-Files/Vim/remap.vim
-source ~/Documents/GitHub/Config-Files/Vim/set.vim
+source ~/Documents/Repos/Config-Files/Vim/remap.vim
+source ~/Documents/Repos/Config-Files/Vim/set.vim
 
 "https://youtu.be/VxHT88haAPU
 set t_vb=
