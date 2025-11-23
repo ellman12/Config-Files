@@ -18,3 +18,9 @@ alias cdahk='cd "C:/Users/Elliott/Documents/Repos/AutoHotkey-V2"'
 alias cdcfg='cd "C:/Users/Elliott/Documents/Repos/Config-Files"'
 alias cdwtb='cd "C:/Users/Elliott/Documents/Repos/WingTechBot-MK3"'
 
+alias cddesk='cd "C:/Users/Elliott/Desktop"'
+alias cddocs='cd "C:/Users/Elliott/Documents"'
+alias cddown='cd "C:/Users/Elliott/Downloads"'
+alias cdpics='cd "C:/Users/Elliott/Pictures"'
+alias cdvids='cd "C:/Users/Elliott/Videos"'
+
