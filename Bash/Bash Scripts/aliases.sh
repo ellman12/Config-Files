@@ -1,6 +1,8 @@
 alias ..='cd ..'
 alias ls='ls -A -F --color=auto --show-control-chars'
 
+function mkcd() { mkdir -p "$1" && cd "$1"; }
+
 alias vi="nvim"
 alias vim="nvim"
 
