@@ -15,14 +15,14 @@ mkd() {
 }
 
 #Common folders
-alias cdrps='cd "C:/Users/Elliott/Documents/Repos"'
-alias cdahk='cd "C:/Users/Elliott/Documents/Repos/AutoHotkey-V2"'
-alias cdcfg='cd "C:/Users/Elliott/Documents/Repos/Config-Files"'
-alias cdwtb='cd "C:/Users/Elliott/Documents/Repos/WingTechBot-MK3"'
+alias cdrps='cd ~/Documents/Repos'
+alias cdahk='cd ~/Documents/Repos/AutoHotkey-V2'
+alias cdcfg='cd ~/Documents/Repos/Config-Files'
+alias cdwtb='cd ~/Documents/Repos/WingTechBot-MK3'
 
-alias cddesk='cd "C:/Users/Elliott/Desktop"'
-alias cddocs='cd "C:/Users/Elliott/Documents"'
-alias cddown='cd "C:/Users/Elliott/Downloads"'
-alias cdpics='cd "C:/Users/Elliott/Pictures"'
-alias cdvids='cd "C:/Users/Elliott/Videos"'
+alias cddesk='cd ~/Desktop'
+alias cddocs='cd ~/Documents'
+alias cddown='cd ~/Downloads'
+alias cdpics='cd ~/Pictures'
+alias cdvids='cd ~/Videos'
 
