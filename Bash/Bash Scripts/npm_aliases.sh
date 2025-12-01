@@ -1,6 +1,7 @@
 alias nrb="clear && npm run build"
 alias nrd="clear && npm run dev"
 alias nrl="clear && npm run lint"
+alias nrt="clear && npm run test"
 alias nrf="clear && npm run format"
 alias nrc="clear && npm run clean"
 alias nrlb="nrl && npm run build"
