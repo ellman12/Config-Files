@@ -1,0 +1,239 @@
+# Config relating to the Lazygit UI
+gui:
+  # If true, do not show a warning when amending a commit.
+  skipAmendWarning: true
+
+  # If true, do not show a warning when discarding changes in the staging view.
+  skipDiscardChangeWarning: true
+
+  # If true, do not show warning when applying/popping the stash
+  skipStashWarning: true
+
+  # If true, do not show a warning when rewording a commit via an external editor
+  skipRewordInEditorWarning: true
+
+  # If true, increase the height of the focused side window; creating an accordion
+  # effect.
+  expandFocusedSidePanel: true
+
+  # If true, hunk selection mode will be enabled by default when entering the
+  # staging view.
+  useHunkModeInStagingView: false
+
+  # How things are filtered when typing '/'.
+  # One of 'substring' (default) | 'fuzzy'
+  filterMode: fuzzy
+
+  # Status panel view.
+  # One of 'dashboard' (default) | 'allBranchesLog'
+  statusPanelView: allBranchesLog
+
+  # If true, when using the panel jump keys (default 1 through 5) and target panel
+  # is already active, go to next tab instead
+  switchTabsWithPanelJumpKeys: true
+
+git:
+  # Config for showing the log in the commits view
+  log:
+    # displays the whole git graph by default in the commits view (equivalent to
+    # passing the `--all` argument to `git log`)
+    showWholeGraph: false
+
+# If true, don't display introductory popups upon opening Lazygit.
+disableStartupPopups: false
+
+# User-configured commands that can be invoked from within Lazygit
+# See https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Command_Keybindings.md
+customCommands: []
+
+# What to do when opening Lazygit outside of a git repo.
+# - 'prompt': (default) ask whether to initialize a new repo or open in the most
+# recent repo
+# - 'create': initialize a new repo
+# - 'skip': open most recent repo
+# - 'quit': exit Lazygit
+notARepository: skip
+
+# If true, display a confirmation when subprocess terminates. This allows you to
+# view the output of the subprocess before returning to Lazygit.
+promptToReturnFromSubprocess: false
+
+# Keybindings
+keybinding:
+  universal:
+    quit: q
+    quit-alt1: <c-c>
+    suspendApp: <c-z>
+    return: <esc>
+    quitWithoutChangingDirectory: Q
+    togglePanel: <tab>
+    prevItem: <up>
+    nextItem: <down>
+    prevItem-alt: k
+    nextItem-alt: j
+    prevPage: ','
+    nextPage: .
+    scrollLeft: H
+    scrollRight: L
+    gotoTop: <
+    gotoBottom: '>'
+    gotoTop-alt: <home>
+    gotoBottom-alt: <end>
+    toggleRangeSelect: v
+    rangeSelectDown: <s-down>
+    rangeSelectUp: <s-up>
+    prevBlock: <left>
+    nextBlock: <right>
+    prevBlock-alt: h
+    nextBlock-alt: l
+    nextBlock-alt2: <tab>
+    prevBlock-alt2: <backtab>
+    jumpToBlock:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    focusMainView: "0"
+    nextMatch: "n"
+    prevMatch: "N"
+    startSearch: /
+    optionMenu: <disabled>
+    optionMenu-alt1: '?'
+    select: <space>
+    goInto: <enter>
+    confirm: <enter>
+    confirmMenu: <enter>
+    confirmSuggestion: <enter>
+    confirmInEditor: <a-enter>
+    confirmInEditor-alt: <c-s>
+    remove: d
+    new: "n"
+    edit: e
+    openFile: o
+    scrollUpMain: <pgup>
+    scrollDownMain: <pgdown>
+    scrollUpMain-alt1: K
+    scrollDownMain-alt1: J
+    scrollUpMain-alt2: <c-u>
+    scrollDownMain-alt2: <c-d>
+    executeShellCommand: ':'
+    createRebaseOptionsMenu: m
+
+    # 'Files' appended for legacy reasons
+    pushFiles: P
+
+    # 'Files' appended for legacy reasons
+    pullFiles: p
+    refresh: R
+    createPatchOptionsMenu: <c-p>
+    nextTab: ']'
+    prevTab: '['
+    nextScreenMode: +
+    prevScreenMode: _
+    cyclePagers: '|'
+    undo: z
+    redo: Z
+    filteringMenu: <c-s>
+    diffingMenu: W
+    diffingMenu-alt: <c-e>
+    copyToClipboard: <c-o>
+    openRecentRepos: <c-r>
+    submitEditorText: <enter>
+    extrasMenu: '@'
+    toggleWhitespaceInDiffView: <c-w>
+    increaseContextInDiffView: '}'
+    decreaseContextInDiffView: '{'
+    increaseRenameSimilarityThreshold: )
+    decreaseRenameSimilarityThreshold: (
+    openDiffTool: <c-t>
+  status:
+    checkForUpdate: u
+    recentRepos: <enter>
+    allBranchesLogGraph: a
+  files:
+    commitChanges: c
+    commitChangesWithoutHook: w
+    amendLastCommit: A
+    commitChangesWithEditor: C
+    findBaseCommitForFixup: <c-f>
+    confirmDiscard: x
+    ignoreFile: i
+    refreshFiles: r
+    stashAllChanges: s
+    viewStashOptions: S
+    toggleStagedAll: a
+    viewResetOptions: D
+    fetch: f
+    toggleTreeView: '`'
+    openMergeOptions: M
+    openStatusFilter: <c-b>
+    copyFileInfoToClipboard: "y"
+    collapseAll: '-'
+    expandAll: =
+  branches:
+    createPullRequest: o
+    viewPullRequestOptions: O
+    copyPullRequestURL: <c-y>
+    checkoutBranchByName: c
+    forceCheckoutBranch: F
+    checkoutPreviousBranch: '-'
+    rebaseBranch: r
+    renameBranch: R
+    mergeIntoCurrentBranch: M
+    moveCommitsToNewBranch: "N"
+    viewGitFlowOptions: i
+    fastForward: f
+    createTag: T
+    pushTag: P
+    setUpstream: u
+    fetchRemote: f
+    addForkRemote: F
+    sortOrder: s
+  worktrees:
+    viewWorktreeOptions: w
+  commits:
+    squashDown: s
+    renameCommit: r
+    renameCommitWithEditor: R
+    viewResetOptions: g
+    markCommitAsFixup: f
+    createFixupCommit: F
+    squashAboveCommits: S
+    moveDownCommit: <c-j>
+    moveUpCommit: <c-k>
+    amendToCommit: A
+    resetCommitAuthor: a
+    pickCommit: p
+    revertCommit: t
+    cherryPickCopy: C
+    pasteCommits: V
+    markCommitAsBaseForRebase: B
+    tagCommit: T
+    checkoutCommit: <space>
+    resetCherryPick: <c-R>
+    copyCommitAttributeToClipboard: "y"
+    openLogMenu: <c-l>
+    openInBrowser: o
+    viewBisectOptions: b
+    startInteractiveRebase: i
+    selectCommitsOfCurrentBranch: '*'
+  amendAttribute:
+    resetAuthor: a
+    setAuthor: A
+    addCoAuthor: c
+  stash:
+    popStash: g
+    renameStash: r
+  commitFiles:
+    checkoutCommitFile: c
+  main:
+    toggleSelectHunk: a
+    pickBothHunks: b
+    editSelectHunk: E
+  submodules:
+    init: i
+    update: u
+    bulkMenu: b
+  commitMessage:
+    commitMenu: <c-o>

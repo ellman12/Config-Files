@@ -15,3 +15,7 @@ cp ./Vim/.ideavimrc ~/.ideavimrc
 mkdir ~/AppData/Local/nvim
 cp -r ./Neovim/* ~/AppData/Local/nvim
 
+#Set up Lazygit
+mkdir ~/AppData/Local/lazygit
+cp -r ./Lazygit/* ~/AppData/Local/lazygit
+
