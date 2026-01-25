@@ -16,7 +16,7 @@ mkd() {
 
 #Common folders
 alias cdrps='cd ~/Documents/Repos'
-alias cdahk='cd ~/Documents/Repos/AutoHotkey-V2'
+alias cdahk='cd ~/Documents/Repos/AutoHotkey-Scripts'
 alias cdcfg='cd ~/Documents/Repos/Config-Files'
 alias cdwtb='cd ~/Documents/Repos/WingTechBot-MK3'
 
