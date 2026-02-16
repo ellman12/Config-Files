@@ -1,5 +1,5 @@
-source ~/Documents/Repos/Config-Files/Vim/remap.vim
-source ~/Documents/Repos/Config-Files/Vim/set.vim
+source ~/Repos/Config-Files/Vim/remap.vim
+source ~/Repos/Config-Files/Vim/set.vim
 
 set easymotion
 map <Leader> <Plug>(easymotion-prefix)
