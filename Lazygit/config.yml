@@ -44,7 +44,15 @@ disableStartupPopups: false
 
 # User-configured commands that can be invoked from within Lazygit
 # See https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Command_Keybindings.md
-customCommands: []
+customCommands:
+  - key: '<c-r>'
+    context: global
+    description: 'Reset current branch to origin'
+    command: 'git reset --hard origin/{{ .SelectedLocalBranch.Name }}'
+    prompts:
+    - type: 'confirm'
+      title: 'Reset branch to origin'
+      body: 'Are you sure you want to reset {{ .SelectedLocalBranch.Name }} to origin?'
 
 # What to do when opening Lazygit outside of a git repo.
 # - 'prompt': (default) ask whether to initialize a new repo or open in the most
