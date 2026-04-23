@@ -45,6 +45,15 @@ disableStartupPopups: false
 # User-configured commands that can be invoked from within Lazygit
 # See https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Command_Keybindings.md
 customCommands:
+  - key: '<c-a>'
+    context: global
+    description: 'Force amend and push changes'
+    command: 'bash -c "git add -A ; git commit --amend --no-edit ; git push --force-with-lease"'
+    prompts:
+      - type: 'confirm'
+        title: 'Reset branch to origin'
+        body: 'Are you sure you want to force amend and push {{ .SelectedLocalBranch.Name }} to origin?'
+
   - key: '<c-r>'
     context: global
     description: 'Reset current branch to origin'
