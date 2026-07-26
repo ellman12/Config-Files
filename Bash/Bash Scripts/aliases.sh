@@ -21,6 +21,7 @@ alias cdwtb='cd ~/Repos/WingTechBot-MK3'
 
 alias cddesk='cd ~/Desktop'
 alias cddocs='cd ~/Documents'
+alias cdobsi='cd ~/Documents/Obsidian'
 alias cddown='cd ~/Downloads'
 alias cdpics='cd ~/Pictures'
 alias cdvids='cd ~/Videos'
