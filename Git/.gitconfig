@@ -8,4 +8,6 @@
 	autoSetupRemote = true
 [stash]
 	showIncludeUntracked = true
+[fetch]
+	prune = true
 
