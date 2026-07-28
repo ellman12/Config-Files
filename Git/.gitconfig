@@ -6,4 +6,6 @@
 	name = Elliott DuCharme
 [push]
 	autoSetupRemote = true
+[stash]
+	showIncludeUntracked = true
 
