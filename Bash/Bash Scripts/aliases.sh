@@ -14,6 +14,8 @@ mkd() {
 	cd "$@" || exit
 }
 
+alias 7z='"/c/Program Files/7-Zip/7z.exe"'
+
 #Common folders
 alias cdahk='cd ~/Repos/AutoHotkey-Scripts'
 alias cdcfg='cd ~/Repos/Config-Files'
