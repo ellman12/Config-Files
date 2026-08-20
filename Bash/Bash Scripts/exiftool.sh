@@ -26,7 +26,7 @@ SetExifFromFilename() {
 		extensions=("png" "mp4" "mov")
 	fi
 
-	regex='([0-9]+[-_.: ]+)?([0-9]{4})[-_.: ]?([0-9]{2})[-_.: ]?([0-9]{2})[-_.: ]?([0-9]{2})[-_.: ]?([0-9]{2})[-_.: ]?([0-9]{2})'
+	regex='([0-9]+[-_.: ]+)?([0-9]{4})[-_.: ]?([0-9]{2})[-_.: ]?([0-9]{2})[-_.: ]?([0-9]{1,2})[-_.: ]?([0-9]{2})[-_.: ]?([0-9]{2})'
 
 	#Build the find command dynamically from the extensions array
 	find_cmd=(find "$BASE_DIR" -type f)
@@ -46,6 +46,9 @@ SetExifFromFilename() {
 			hour=${BASH_REMATCH[5]}
 			min=${BASH_REMATCH[6]}
 			sec=${BASH_REMATCH[7]}
+
+			# Zero-pad single-digit hours (e.g. 9 -> 09)
+			printf -v hour '%02d' "$hour"
 
 			exif_date="${year}:${month}:${day} ${hour}:${min}:${sec}"
 
